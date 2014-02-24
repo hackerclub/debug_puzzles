@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 cc -o /tmp/drano otterpop.c
 echo 16 > /proc/sys/kernel/random/read_wakeup_threshold
