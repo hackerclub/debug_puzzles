@@ -27,12 +27,12 @@ VIRTUAL MACHINES OR HOSTS THAT YOU DO NOT CARE ABOUT AT ALL**.
 ## Running with Vagrant
 
 Easiest way to play these challs is with vagrant. Vagrant will seemlessy
-create a disposable VM for you break.
+create a disposable VM for you to break.
 
-1. Install vagrant from you package manager or here (https://www.vagrantup.com/)
+1. Install vagrant from your package manager or here (https://www.vagrantup.com/)
 
 2. Run `vagrant init hashicorp/precise32` from the debug_puzzles base directory. This will setup a configuration file for a Vagrant Ubuntu 32bit VM in the base of debug_puzzles.
 
-3. Run `vagrant up` and then `vagrant ssh` and you're in! From there navigate to the `/vagrant` directory inside your VM and play with the puzzles as described above.
+3. Run `vagrant up` and then `vagrant ssh` and you're in! From there copy the contents of the `/vagrant` to `/home/vagrant/`.
 
 4. When you're done exit the shell and run `vagrant destroy` from the debug_puzzles base directory.
