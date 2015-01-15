@@ -10,7 +10,7 @@ if you have won or not.
 Unix: Run `./deploy.sh` as root on your machine.
 
 ## Spoiler Alert!
-Resist the erge to read the impl.sh file, they contain the challenge implementation and
+Resist the urge to read the impl.sh file, they contain the challenge implementation and
 remove the challenge of system debugging.
 
 ## Problem format
