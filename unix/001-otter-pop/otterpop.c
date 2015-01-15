@@ -40,6 +40,7 @@ void keygen(void)
     }
 
     printf("Generating key; gathering entropy...\n");
+    fflush(stdout);   
 
     i = 0;
     while (i < BUFFER_SIZE) {
